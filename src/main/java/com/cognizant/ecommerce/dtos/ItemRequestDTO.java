@@ -1,5 +1,10 @@
 package com.cognizant.ecommerce.dtos;
 
-public class ItemRequestDTO {
+import lombok.Data;
 
+@Data
+public class ItemRequestDTO {
+    private String name;
+    private String description;
+    private String category;
 }
